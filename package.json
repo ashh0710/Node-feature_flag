@@ -1,0 +1,17 @@
+{
+  "name": "azure-container-apps-demo",
+  "version": "1.0.0",
+  "description": "Azure Container Apps Demo with Environment-based Routing and Feature Flagging",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
