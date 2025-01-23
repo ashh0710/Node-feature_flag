@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 8080;
+//for production
+//const featureFlag = process.env.FEATURE_FLAG || 'false'; 
 
+//for staging
 const featureFlag = process.env.FEATURE_FLAG || 'true';
 
 app.get('/', (req, res) => {
